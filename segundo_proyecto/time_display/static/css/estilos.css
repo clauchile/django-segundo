@@ -1,0 +1,38 @@
+h4 {
+background-color: red;
+color: yellow;
+border-style: double; 
+
+}
+
+.widget{
+    width: 20%;
+    
+    margin: 2em;
+}
+
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+}
+
+.reloj{
+    font-family: oswald, arial;
+    width: 50%;
+    height: 20%;
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    background: rgba(0,0,0,5);
+    display: inline-block;
+}
+
+.reloj .c-seg{
+    display : inline-block;
+}
+
+.reloj .seg,
+.reloj .ampm {
+    font-size:  1rem;
+    display:block
+}

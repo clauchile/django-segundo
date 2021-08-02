@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+    <script src="{% static 'js/script.js' %}"></script>
+<body>
+    <div class="container">
+        <div class="col 2">
+            <h4 class="text-center mb-2">{{msj}}</h4>
+            <h1 class="text-center bg-primary p-1">{{time}}</h1>
+
+        </div>
+
+</body>
+</html>
